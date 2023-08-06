@@ -258,7 +258,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "本站为纯公益的3.5渠道，全部都是公益接口。现在添加了官方的接口作为公益,后期如果有低价的4.0渠道会添加作为公益接口。",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
