@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "访问密码为GPT，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      "请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
   },
   Auth: {
     Title: "需要密码",
@@ -262,7 +262,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "本站为纯公益的3.5渠道，全部都是公益接口。现在添加了官方的接口作为公益,后期如果有低价的4.0渠道会添加作为公益接口。",
+    BotHello: "本站的3.5接口已经替换为官方渠道，由于被而已爬虫盗刷成本激增\n 现在使用需要在设置的接口地址处填入 https://api.ezchat.top 才能使用\n 如需使用4.0的朋友可以前往 https://faka.wudi11.shop 进行购买",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
